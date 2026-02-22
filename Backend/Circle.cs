@@ -37,7 +37,7 @@ public class Circle : GeometricFigure
     {
         if (r < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(r), $"The radius {r} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(r), $"The radius: {r} is invalid.");
         }
         return r;
     }

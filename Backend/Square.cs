@@ -34,7 +34,7 @@ public class Square : GeometricFigure
     {
         if (a < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(a), $"The side {a} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(a), $"The side: {a} is invalid.");
         }
         return a;
     }

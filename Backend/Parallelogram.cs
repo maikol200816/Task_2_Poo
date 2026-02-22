@@ -40,7 +40,7 @@ public class Parallelogram:Rectangle
     {
         if (h < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(h), $"The height {h} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(h), $"The height: {h} is invalid.");
         }
         return h;
     }

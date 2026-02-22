@@ -42,7 +42,7 @@ public class Rhombus: Square
     {
         if (d1 < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(d1), $"The diagonal {d1} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(d1), $"The diagonal: {d1} is invalid.");
         }
         return d1;
     }
@@ -51,7 +51,7 @@ public class Rhombus: Square
     {
         if (d2 < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(d2), $"The diagonal {d2} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(d2), $"The diagonal: {d2} is invalid.");
         }
         return d2;
     }

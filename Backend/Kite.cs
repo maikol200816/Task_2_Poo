@@ -35,7 +35,7 @@ public class Kite:Rhombus
     {
         if (b < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(b), $"The length {b} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(b), $"The length: {b} is invalid.");
         }
         return b;
     }

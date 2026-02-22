@@ -43,7 +43,7 @@ public class Triangle:Rectangle
     {
         if (c < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(c), $"The length {c} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(c), $"The length: {c} is invalid.");
         }
         return c;
     }
@@ -52,7 +52,7 @@ public class Triangle:Rectangle
     {
         if (h < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(h), $"The height {h} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(h), $"The height: {h} is invalid.");
         }
         return h;
     }

@@ -40,7 +40,7 @@ public class Trapeze: Triangle
     {
         if (d < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(d), $"The length {d} is invalid.");
+            throw new ArgumentOutOfRangeException(nameof(d), $"The length: {d} is invalid.");
         }
         return d;
     }
