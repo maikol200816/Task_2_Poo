@@ -25,12 +25,6 @@ public abstract class GeometricFigure
         return $"{Name,-15} => Area.....: {GetArea(),15:N5}   Perimeter: {GetPerimeter(),15:N5}";
     }
 
-    
-
-
-
     public abstract double GetArea();
     public abstract double GetPerimeter();
-    
-
 }
