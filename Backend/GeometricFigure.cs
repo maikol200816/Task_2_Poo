@@ -17,10 +17,7 @@ public abstract class GeometricFigure
     //Methods
     public override string ToString()
     {
-        //return $"Figura: {Name}\n" +
-        // $" => Area......: {GetArea():N5}\n" +
-        //$" => Perimeter.: {GetPerimeter():N5}\n" +
-        //$"---------------------------";
+        
 
         return $"{Name,-15} => Area.....: {GetArea(),15:N5}   Perimeter: {GetPerimeter(),15:N5}";
     }
