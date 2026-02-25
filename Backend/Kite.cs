@@ -9,7 +9,7 @@ public class Kite:Rhombus
 
 
     //Constructors
-    public Kite(string name, double a, double d1, double d2, double b) : base(name, a, d1, d2)
+    public Kite( double a, double d1, double d2, double b) : base( a, d1, d2)
     {
         B = b;
     }

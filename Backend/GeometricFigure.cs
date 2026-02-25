@@ -2,12 +2,7 @@
 
 public abstract class GeometricFigure
 {
-    //Constructors
-    protected GeometricFigure(String name)
-    {
-        Name = name;
-    }
-
+    
 
     //Properties
     public String Name 

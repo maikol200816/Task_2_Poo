@@ -11,7 +11,7 @@ public class Parallelogram:Rectangle
 
 
     //Constructors
-    public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
+    public Parallelogram(double a, double b, double h) : base( a, b)
     {
         H = h;
     }

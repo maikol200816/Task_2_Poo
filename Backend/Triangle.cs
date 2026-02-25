@@ -10,7 +10,7 @@ public class Triangle:Rectangle
 
 
     //Constructors
-    public Triangle(string name, double a, double b, double c, double h) : base(name, a, b)
+    public Triangle( double a, double b, double c, double h) : base( a, b)
     {
         C = c;
         H = h;
