@@ -3,14 +3,14 @@
 public abstract class GeometricFigure
 {
     //Constructors
-    protected GeometricFigure(String name)
+    protected GeometricFigure(string name)
     {
         Name = name;
     }
 
 
     //Properties
-    public String Name 
+    public string Name 
     { get; set; } = null!;
 
 
