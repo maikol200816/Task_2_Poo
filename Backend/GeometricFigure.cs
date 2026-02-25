@@ -3,7 +3,7 @@
 public abstract class GeometricFigure
 {
     //Constructors
-    public GeometricFigure(String name)
+    protected GeometricFigure(String name)
     {
         Name = name;
     }
