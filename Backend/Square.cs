@@ -9,7 +9,7 @@ public class Square : GeometricFigure
     private double _a;
 
     //Constructors
-    public Square( double a) 
+    public Square(string name, double a) : base(name)
     {
         A = a;
     }

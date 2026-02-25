@@ -9,7 +9,7 @@ public class Circle : GeometricFigure
 
 
     //Constructors
-    public Circle( double r) 
+    public Circle(string name, double r) : base(name)
     {
         R = r;
     }

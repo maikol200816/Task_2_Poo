@@ -10,7 +10,7 @@ public class Trapeze: Triangle
 
     //Constructors
 
-    public Trapeze( double a, double b, double c, double d, double h) : base( a, b, c,  h)
+    public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a, b, c,  h)
     {
         D = d;
     }
