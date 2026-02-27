@@ -12,6 +12,7 @@ public class Trapeze: Triangle
 
     public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a, b, c,  h)
     {
+        
         D = d;
     }
 

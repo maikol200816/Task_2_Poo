@@ -7,8 +7,9 @@ public class Rhombus: Square
     private double _d2;
 
     //Constructors
-    public Rhombus(string name, double a, double d1, double d2) : base(name, a)
+    public Rhombus(string name, double a, double d1, double d2) : base(name,a)
     {
+        
         D1 = d1;
         D2 = d2;
     }

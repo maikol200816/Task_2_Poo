@@ -9,8 +9,9 @@ public class Circle : GeometricFigure
 
 
     //Constructors
-    public Circle(string name, double r) : base(name)
+    public Circle(string name, double r) 
     {
+        Name = name;
         R = r;
     }
 

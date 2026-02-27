@@ -12,6 +12,7 @@ public class Rectangle:Square
     //Constructors
     public Rectangle(string name, double a, double b) : base(name, a)
     {
+       
         B = b;
     }
 
