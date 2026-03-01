@@ -42,7 +42,7 @@ public class Triangle:Rectangle
     
     private double ValidateC(double c)
     {
-        if (c < 0)
+        if (c <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(c), $"The length: {c} is invalid.");
         }
@@ -51,7 +51,7 @@ public class Triangle:Rectangle
 
     private double ValidateH(double h)
     {
-        if (h < 0)
+        if (h <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(h), $"The height: {h} is invalid.");
         }

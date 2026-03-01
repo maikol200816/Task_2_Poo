@@ -39,7 +39,7 @@ public class Parallelogram:Rectangle
 
     private double ValidateH(double h)
     {
-        if (h < 0)
+        if (h <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(h), $"The height: {h} is invalid.");
         }

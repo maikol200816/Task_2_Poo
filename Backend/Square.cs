@@ -33,7 +33,7 @@ public class Square : GeometricFigure
 
     private double ValidateA(double a)
     {
-        if (a < 0)
+        if (a <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(a), $"The side: {a} is invalid.");
         }

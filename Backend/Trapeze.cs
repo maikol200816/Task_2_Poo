@@ -39,7 +39,7 @@ public class Trapeze: Triangle
 
     private double ValidateD(double d)
     {
-        if (d < 0)
+        if (d <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(d), $"The length: {d} is invalid.");
         }

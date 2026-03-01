@@ -41,7 +41,7 @@ public class Rhombus: Square
 
     private double ValidateD1(double d1)
     {
-        if (d1 < 0)
+        if (d1 <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(d1), $"The diagonal: {d1} is invalid.");
         }
@@ -50,7 +50,7 @@ public class Rhombus: Square
 
     private double ValidateD2(double d2)
     {
-        if (d2 < 0)
+        if (d2 <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(d2), $"The diagonal: {d2} is invalid.");
         }

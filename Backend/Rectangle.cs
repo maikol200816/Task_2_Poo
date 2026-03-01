@@ -36,7 +36,7 @@ public class Rectangle:Square
 
     private double ValidateB(double b)
     {
-        if (b < 0)
+        if (b <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(b), $"The length: {b} is invalid.");
         }
